@@ -1,0 +1,6 @@
+site :opscode
+
+cookbook 'openssh'
+cookbook 'build-essential'
+cookbook 'git'
+cookbook 'apache2'

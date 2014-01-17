@@ -1,0 +1,10 @@
+{
+  "openssh": {
+    "server": {
+      "password_authentication": "no"
+    }
+  },
+  "run_list": [
+    "recipe[openssh::default]"
+  ]
+}

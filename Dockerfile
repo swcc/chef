@@ -16,9 +16,9 @@ RUN mkdir -p /etc/apt/trusted.gpg.d
 RUN gpg --keyserver keys.gnupg.net --recv-keys 83EF826A
 RUN gpg --export packages@opscode.com | tee /etc/apt/trusted.gpg.d/opscode-keyring.gpg > /dev/null
 RUN apt-get -y update
-RUN apt-get install opscode-keyring # permanent upgradeable keyring
-RUN apt-get upgrade
-RUN apt-get install libgecode-dev
+RUN apt-get install -y opscode-keyring # permanent upgradeable keyring
+RUN apt-get upgrade -y 
+RUN apt-get install -y libgecode-dev
 RUN USE_SYSTEM_GECODE=1 /opt/chef/embedded/bin/gem install berkshelf
 
 # Cleanup

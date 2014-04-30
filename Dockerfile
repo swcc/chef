@@ -5,7 +5,7 @@ MAINTAINER Paul B. "paul+swcc@bonaud.fr"
 RUN apt-get -y update
 
 # Install Chef
-RUN apt-get -y install curl build-essential libxml2-dev libxslt-dev git wget lsb_release
+RUN apt-get -y install curl build-essential libxml2-dev libxslt-dev git wget lsb-release
 RUN curl -L https://www.opscode.com/chef/install.sh | bash
 RUN echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 

@@ -12,4 +12,4 @@ sudo docker pull swcc/chef
 Examples using this container
 ==
 
-See in the [https://github.com/swcc/chef-solo/tree/master/examples] directory.
+See in the [examples](https://github.com/swcc/chef/tree/master/examples) directory.

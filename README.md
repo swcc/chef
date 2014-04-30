@@ -6,7 +6,7 @@ A docker image container with Chef pre-installed.
 Pull the image
 ==
 ```
-sudo docker pull swcc/chef-solo
+sudo docker pull swcc/chef
 ```
 
 Examples using this container

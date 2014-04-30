@@ -1,4 +1,4 @@
-chef-solo
+Chef container
 =========
 
 A docker image container with Chef pre-installed.

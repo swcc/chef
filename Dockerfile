@@ -1,5 +1,5 @@
 # Docker container with chef-solo & berkshelf
-FROM ubuntu:latest
+FROM ubuntu:14.04
 MAINTAINER Paul B. "paul+swcc@bonaud.fr"
 
 RUN apt-get -y update

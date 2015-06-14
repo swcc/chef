@@ -1,4 +1,4 @@
-Ubuntu 14.04 container with Chef
+Ubuntu container with Chef
 =========
 
 A docker image container with Chef pre-installed.
